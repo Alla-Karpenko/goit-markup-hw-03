@@ -1,0 +1,231 @@
+  :root {
+    --accent-color: #2196F3;
+    --title-color:  #212121;
+    --subtitle-color:  #757575; 
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .address {
+    font-style: normal;
+  }
+   
+  .container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+    /*=======  COMPONENTS =====*/
+  
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .footer-accent {
+   color: #ffffff;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em; 
+    color: var(--title-color);
+    
+  }
+
+  .modal-btn:hover,
+  .modal-btn:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+  }
+
+  .button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  }
+  
+  .button { 
+     color: #ffffff;
+    background-color: var(--accent-color)
+  }
+    /*======= END  COMPONENTS =====*/
+    
+    /*======== HEADER======*/
+
+  .header-logo {
+  font-family: Raleway;
+  font-style: normal;  
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192px;
+  /*identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  } 
+
+  .accent {
+    color:  #000000;
+  }
+  
+  .navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143px;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+  }
+  
+  .header-mail-link,
+  .header-tel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143px;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-color);
+  }
+  .navigation-list-link:hover,
+  .navigation-list-link:focus {
+    color: var(--accent-color);
+  }
+  
+  .navigation-portfolio-list-link {
+  color: var(--accent-color);
+  }
+  
+  .header-mail-link:hover,
+  .header-mail-link:focus {
+    color: var(--accent-color);
+  }
+  
+  .header-tel-link:hover,
+  .header-tel-link:focus {
+    color: var(--accent-color);
+  }
+  
+  .header-portfolio-mail-link,
+  .header-portfolio-tel-link {
+    color:  var(--subtitle-color);
+  }
+  
+    /*======== END HEADER======*/
+    
+    /*======== SERVICES  ======*/
+    
+  .services-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+  }
+  
+  .services-subtitle  {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--subtitle-color);
+    }
+
+    /*======== END SERVICES  ======*/
+
+    /*======== ABOUT US  ======*/
+
+    .heading-title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.167px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: var(--title-color);
+      }
+      
+    /*======== END ABOUT US  ======*/
+    
+    /*======== COMMAND  ======*/
+
+    .command-list-name {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.188px;
+      /* identical to box height */
+      letter-spacing: 0.03em;
+      color: var(--title-color);
+    }
+      
+    .position {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 1.875px;
+      /* identical to box height, or 187% */
+      letter-spacing: 0.03em;
+      color: var(--subtitle-color);
+      }
+  
+    /*======== END COMAND  ======*/
+
+    /*======   FOOTER  ========*/
+
+  .footer-logo {
+  font-family: Raleway;
+  font-style: normal;  
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  }
+  
+  .footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2F303A;
+  }
+  
+  .footer-contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .footer-contact-item {
+  color: #ffffff;
+  }
+  
+   /*======  END FOOTER  ========*/
